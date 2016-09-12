@@ -6,7 +6,7 @@
       "posicao_inicio": 1,
       "posicao_fim": 3,
       "formato": "num",
-      "default": 104
+      "default": 1
     },
 
     "02.1": {
@@ -28,7 +28,8 @@
       "nome": "servico_operacao",
       "posicao_inicio": 9,
       "posicao_fim": 9,
-      "formato": "alfa"
+      "formato": "alfa",
+      "default": "R"
     },
 
     "05.1": {
@@ -80,9 +81,9 @@
       "nome": "codigo_convenio_banco",
       "posicao_inicio": 34,
       "posicao_fim": 53,
-      "formato": "num",
-      "default": 0
+      "formato": "alfa"
     },
+
 
     "12.1": {
       "nome": "cedente_agencia",
@@ -92,22 +93,22 @@
     },
 
     "13.1": {
-      "nome": "cedente_conta_dv",
+      "nome": "cedente_agencia_dv",
       "posicao_inicio": 59,
       "posicao_fim": 59,
       "formato": "alfa"
     },
 
     "14.1": {
-      "nome": "cedente_codigo_codCedente",
+      "nome": "cedente_conta",
       "posicao_inicio": 60,
-      "posicao_fim": 65,
+      "posicao_fim": 71,
       "formato": "num"
     },
 
     "15.1": {
-      "nome": "cedente_codModelo",
-      "posicao_inicio": 66,
+      "nome": "cedente_conta_dv",
+      "posicao_inicio": 72,
       "posicao_fim": 72,
       "formato": "num"
     },
